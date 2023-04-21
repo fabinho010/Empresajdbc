@@ -1454,40 +1454,5 @@
     <user id="528" parent="1" name="user1">
       <Host>localhost</Host>
     </user>
-    <table id="529" parent="510" name="empleados">
-      <Engine>InnoDB</Engine>
-      <CollationName>latin1_swedish_ci</CollationName>
-    </table>
-    <column id="530" parent="529" name="ID">
-      <DasType>int(11)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="531" parent="529" name="Nombre">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>2</Position>
-    </column>
-    <column id="532" parent="529" name="Apellido">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>3</Position>
-    </column>
-    <column id="533" parent="529" name="Departamento">
-      <DasType>varchar(50)|0s</DasType>
-      <Position>4</Position>
-    </column>
-    <column id="534" parent="529" name="Salario">
-      <DasType>int(11)|0s</DasType>
-      <Position>5</Position>
-    </column>
-    <index id="535" parent="529" name="PRIMARY">
-      <ColNames>ID</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="536" parent="529" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
   </database-model>
 </dataSource>
